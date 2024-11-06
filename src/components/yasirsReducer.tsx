@@ -1,4 +1,3 @@
-import { count } from "console";
 import { useReducer } from "react";
 
 interface YasirsState {
