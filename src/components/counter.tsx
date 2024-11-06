@@ -9,7 +9,6 @@ interface CounterState {
     counter: number
 }
 
-// { initValue } : { initValue?: number }
 export const Counter = (props: CounterProps) => {
 
     const initialState:CounterState = { counter: props.initValue || 0 };
